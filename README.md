@@ -37,3 +37,6 @@ Die Lerninhalte sind in der Website enthalten. Die Original-Vorlesungs-PDFs wurd
 - `icon.svg`: App-Logo.
 
 Wird die App geändert, sollte auch die Cache-Version in `sw.js` hochgezählt werden.
+
+## Veröffentlichung prüfen
+In GitHub: Settings → Pages → Deploy from a branch → main / (root). Wenn die App noch nicht erreichbar ist, unter Actions den letzten „pages build and deployment“-Durchlauf prüfen. Die Browser-Adresse ist https://antonialubbers.github.io/brandlab-app/.
